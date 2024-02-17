@@ -23,9 +23,17 @@ class TagSer(serializers.ModelSerializer):
         read_only_fields = ['created_at', 'update_at']
 
 
+class CommentsSer(serializers.ModelSerializer):
+    class Meta:
+        model = Comment
+        fields = '__all__'
+        read_only_fields = ['created_at', 'update_at']
+
+
 class PostSer(serializers.ModelSerializer):
     category = CategorySer()
-    tag = TagSer()
+    tag = TagSer(many=True)
+    comment = CommentsSer(many=True)
 
     class Meta:
         model = Post
@@ -50,13 +58,6 @@ class AdvertiseSer(serializers.ModelSerializer):
 class InstaSer(serializers.ModelSerializer):
     class Meta:
         model = InstagramImage
-        fields = '__all__'
-        read_only_fields = ['created_at', 'update_at']
-
-
-class CommentsSer(serializers.ModelSerializer):
-    class Meta:
-        model = Comment
         fields = '__all__'
         read_only_fields = ['created_at', 'update_at']
 

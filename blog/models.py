@@ -22,13 +22,13 @@ class Subscribe(models.Model):
 
 
 class Advertise(models.Model):
-    image = models.ImageField()
+    image = models.ImageField(upload_to='advertise')
     created_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
 
 
 class InstagramImage(models.Model):
-    image = models.ImageField()
+    image = models.ImageField(upload_to='image')
     created_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
 
@@ -49,8 +49,8 @@ class Post(models.Model):
     title = models.CharField(max_length=212)
     author_name = models.CharField(max_length=212)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
-    image = models.ImageField()
-    dec = models.TextField()
+    image = models.ImageField(upload_to='post')
+    description = models.TextField()
     quotes = models.TextField()
     extra_images = models.ImageField()
     tag = models.ManyToManyField(Tag)
@@ -62,7 +62,7 @@ class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     name = models.CharField(max_length=212)
     email = models.EmailField()
-    image = models.ImageField()
+    image = models.ImageField(upload_to='comment')
     message = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
