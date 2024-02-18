@@ -27,16 +27,16 @@ class TagAPIView(generics.ListAPIView):
 
 
 class PostAPIView(generics.ListAPIView):
-    queryset = Post.objects.all()[:4]
+    queryset = Post.objects.all()
     serializer_class = PostSerializer
 
     def get_queryset(self):
         tag = self.request.query_params.get('tag')
         category = self.request.query_params.get('category')
         if tag:
-            return Post.objects.filter(tags__name__icontains=tag)
+            return Post.objects.filter(tag__name__icontains=tag)
         if category:
-            return Post.objects.filter(categories__name__icontains=category)
+            return Post.objects.filter(category__name__icontains=category)
         else:
             return Post.objects.all()
 
