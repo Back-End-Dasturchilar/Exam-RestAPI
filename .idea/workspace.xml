@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f197331-a9fb-412a-ad15-f4b3f99108fe" name="Changes" comment="Initial commit" />
+    <list default="true" id="1f197331-a9fb-412a-ad15-f4b3f99108fe" name="Changes" comment="***">
+      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/photo_2024-01-19_20-07-35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/photo_2024-01-19_20-07-35_Grs2Roj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/photo_2024-01-22_20-24-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/photo_2024-01-22_20-24-17_KvAi0HF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +53,6 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -34,15 +63,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/asilbek/Desktop/Exam-RestAPI&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/asilbek/Desktop/Exam-RestAPI",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Exam-RestAPI" />
@@ -107,12 +136,61 @@
       <option name="project" value="LOCAL" />
       <updated>1708259231904</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="***">
+      <option name="closed" value="true" />
+      <created>1708259942255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708259942255</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1708260388393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708260388393</updated>
+    </task>
+    <task id="LOCAL-00006" summary="***">
+      <option name="closed" value="true" />
+      <created>1708260439552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708260439552</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1708260499869</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708260499869</updated>
+    </task>
+    <task id="LOCAL-00008" summary="***">
+      <option name="closed" value="true" />
+      <created>1708260532633</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708260532633</updated>
+    </task>
+    <task id="LOCAL-00009" summary="***">
+      <option name="closed" value="true" />
+      <created>1708260578989</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708260578989</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Asilbek" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="***" />
+    <option name="LAST_COMMIT_MESSAGE" value="***" />
   </component>
 </project>
