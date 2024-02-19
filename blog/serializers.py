@@ -33,7 +33,7 @@ class CommentsSer(serializers.ModelSerializer):
 class PostSer(serializers.ModelSerializer):
     category = CategorySer()
     tag = TagSer(many=True)
-    comment = CommentsSer(many=True)
+    comment_set = CommentsSer(many=True)
 
     class Meta:
         model = Post
