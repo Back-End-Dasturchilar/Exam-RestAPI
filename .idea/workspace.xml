@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f197331-a9fb-412a-ad15-f4b3f99108fe" name="Changes" comment="***">
-      <change beforePath="$PROJECT_DIR$/.idea/Exam-RestAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Exam-RestAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1f197331-a9fb-412a-ad15-f4b3f99108fe" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +220,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="***" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
