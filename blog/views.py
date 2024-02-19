@@ -50,11 +50,11 @@ class BlogDetail(generics.ListAPIView):
         if author_name:
             return Post.objects.filter(author__name__icontest=author_name)
         if tag:
-            return Post.objects.filter(tag__name__icontains=tag)
+            return Post.objects.filter(tag__name__icontest=tag)
         if comments:
-            return Post.objects.filter(comment__name__icontains=comments)
+            return Post.objects.filter(comment__name__icontest=comments)
         if category:
-            return Post.objects.filter(category__name__icontains=category)
+            return Post.objects.filter(category__name__icontest=category)
 
         else:
             return Post.objects.all()
