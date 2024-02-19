@@ -47,7 +47,7 @@ class InstagramImages(models.Model):
 
 
 class Comments(models.Model):
-    post = models.CharField(max_length=212)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)
     name = models.CharField(max_length=212)
     email = models.EmailField()
     image = models.ImageField(upload_to='images')
