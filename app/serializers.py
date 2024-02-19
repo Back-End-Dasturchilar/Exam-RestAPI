@@ -9,13 +9,6 @@ from .models import (Post,
                      Author)
 
 
-class PostSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Post
-        fields = '__all__'
-        read_only_fields = ['created_at', 'updated_at']
-
-
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
@@ -26,6 +19,24 @@ class CategorySerializer(serializers.ModelSerializer):
 class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
+        fields = '__all__'
+        read_only_fields = ['created_at', 'updated_at']
+
+
+class CommentsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Comments
+        fields = '__all__'
+        read_only_fields = ['created_at', 'updated_at']
+
+
+class PostSerializer(serializers.ModelSerializer):
+    category = CategorySerializer()
+    tag = TagSerializer(many=True)
+    comment_set = CommentsSerializer(many=True)
+
+    class Meta:
+        model = Post
         fields = '__all__'
         read_only_fields = ['created_at', 'updated_at']
 
@@ -47,13 +58,6 @@ class AdvertiseSerializer(serializers.ModelSerializer):
 class InstagramImagesSerializer(serializers.ModelSerializer):
     class Meta:
         model = InstagramImages
-        fields = '__all__'
-        read_only_fields = ['created_at', 'updated_at']
-
-
-class CommentsSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Comments
         fields = '__all__'
         read_only_fields = ['created_at', 'updated_at']
 
