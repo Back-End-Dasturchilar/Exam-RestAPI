@@ -80,10 +80,17 @@ class Author(models.Model):
     image = models.ImageField(upload_to='author')
     description = models.TextField()
     profession = models.CharField(max_length=212)
+<<<<<<< HEAD
     twitter = models.URLField()
     github = models.URLField()
     instagram = models.URLField()
     facebook = models.URLField()
+=======
+    twitter = models.CharField(max_length=212)
+    github = models.CharField(max_length=212)
+    instagram = models.CharField(max_length=212)
+    facebook = models.CharField(max_length=212)
+>>>>>>> origin/Asadbek
     created = models.DateTimeField(auto_now_add=True)
     update = models.DateTimeField(auto_now=True)
 

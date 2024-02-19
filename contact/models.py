@@ -1,6 +1,9 @@
 from django.db import models
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/Asadbek
 class Contact(models.Model):
     name = models.CharField(max_length=212)
     email = models.EmailField()
@@ -12,7 +15,10 @@ class Contact(models.Model):
     def __str__(self):
         return self.name
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/Asadbek
 class ContactInfo(models.Model):
     address = models.CharField(max_length=212)
     phone = models.CharField(max_length=212)
