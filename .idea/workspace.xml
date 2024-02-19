@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f197331-a9fb-412a-ad15-f4b3f99108fe" name="Changes" comment="***" />
+    <list default="true" id="1f197331-a9fb-412a-ad15-f4b3f99108fe" name="Changes" comment="***">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +34,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Asilbek",
-    "last_opened_file_path": "/home/asilbek/Desktop/Backend-1/Exam-RestAPI",
+    "git-widget-placeholder": "Asadbek",
+    "last_opened_file_path": "/home/asadbek/Desktop/backend/Exam-RestAPI",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -213,6 +215,6 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="***" />
-    <option name="LAST_COMMIT_MESSAGE" value="***" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
