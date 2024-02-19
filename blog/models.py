@@ -1,5 +1,6 @@
 from django.db import models
 
+#####################
 class Category(models.Model):
     name = models.CharField(max_length=212)
     created = models.DateTimeField(auto_now_add=True)
@@ -62,9 +63,6 @@ class Advertise(models.Model):
     update = models.DateTimeField(auto_now=True)
 
 
-
-
-
 class Instagram(models.Model):
     image = models.ImageField(upload_to='insta')
     created = models.DateTimeField(auto_now_add=True)
@@ -72,7 +70,6 @@ class Instagram(models.Model):
 
     def __str__(self):
         return self.image
-
 
 
 class Author(models.Model):
@@ -89,7 +86,3 @@ class Author(models.Model):
 
     def __str__(self):
         return self.name
-
-
-
-
